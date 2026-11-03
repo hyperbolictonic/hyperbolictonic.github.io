@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hypagon Gateway</title>
+  <script>
+    // GitHub does not redirect GitHub Pages project URLs when a repository is renamed,
+    // so the old /hyperbolic-gateway/* addresses still arrive here as 404s.
+    (function () {
+      var OLD = '/hyperbolic-gateway';
+      var NEW = 'https://hyperbolictonic.github.io/hypagon';
+      var path = location.pathname;
+      if (path === OLD || path.indexOf(OLD + '/') === 0) {
+        location.replace(NEW + path.slice(OLD.length) + location.search + location.hash);
+      }
+    })();
+  </script>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #0b1220;
+      color: #e6edf7;
+      font: 16px/1.6 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      text-align: center;
+      padding: 0 24px;
+    }
+    a { color: #22d3ee; }
+    p { max-width: 34rem; color: #9aabc2; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Page not found</h1>
+    <p>
+      If you were looking for Hypagon Gateway documentation, it now lives at
+      <a href="https://hyperbolictonic.github.io/hypagon/">hyperbolictonic.github.io/hypagon</a>.
+    </p>
+    <p><a href="https://github.com/hyperbolictonic/hypagon">Source on GitHub</a></p>
+  </main>
+</body>
+</html>
