@@ -27,6 +27,17 @@ Standalone CLI, library and stdio server — experimental alpha.
 - [Source on GitHub](https://github.com/hyperbolictonic/anyapi-to-mcp)
 - [npm](https://www.npmjs.com/package/anyapi-to-mcp)
 
+### [OpenCode Anti-Slop](https://hyperbolictonic.github.io/opencode-anti-slop/)
+
+Agent skills and deterministic gates that stop AI coding agents producing slop:
+duplicated components, rewritten layouts, misplaced effects and monolithic
+files. Skills, commands and zero-dependency checks for OpenCode, React and Node —
+plus an optional independent reviewer.
+
+- [Project site](https://hyperbolictonic.github.io/opencode-anti-slop/)
+- [Source on GitHub](https://github.com/hyperbolictonic/opencode-anti-slop)
+- [npm](https://www.npmjs.com/package/opencode-anti-slop)
+
 ---
 
 Local-first · MCP · Hypagon Browser + Hypagon REST
